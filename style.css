@@ -17,7 +17,9 @@ img{
     gap: 15px;
 }
 .main-container-1{
-     background: #0E0E0E;
+     /* background: #0E0E0E; */
+     background-image: url(image-hero.jpg);
+     height: 729px;
 }
 .container-nav{
     display: flex;
@@ -33,9 +35,10 @@ img{
 .line{
     border-bottom: 1px solid #fff;
     opacity: 0.2;
-    margin-block: 20px;
+    margin-bottom: 35px;
     width: min(100% - 9vw,1128px);
     margin-inline: auto;
+    margin-top: 20px;
 }
 .red-1{
     font-weight: bold;
@@ -60,7 +63,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
+    width: 50%;
 }
 h5{
     font-size: 10px;
