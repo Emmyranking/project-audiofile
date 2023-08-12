@@ -127,33 +127,11 @@ a:hover{
     width: 33.33%;
     background-color: #F1F1F1;
     margin: 10px;
-}
-
-@media screen and (max-width:800px){
-    .background-header{
-        background-image: url(image-header.jpg);
-    }
-    .header-container{
-        width: 100%;
-        align-items: center;
-    }
-    .logo-nav{
-        display: none;
-    }
-    .sub-container-nav{
-        width: 100%;
-    }
-    .experience p{
-        width: 100%;
-    }
-}
-
-
-
-.row-1{
-    height: 220px;
+    height: 200px;
     border-radius: 8px;
 }
+
+
 .relative{
     margin-inline: auto;
     margin-bottom: -15px;
@@ -200,7 +178,7 @@ a:hover{
 }
 .section-2{
     background-color: #D87D4A;
-    height: 513px;
+    height: 560px;
     width:min(100% - 9vw,1128px);
     margin-inline: auto;
     margin-top: 120px;
@@ -208,7 +186,8 @@ a:hover{
 }
 
 .accessory-2{
-    width: 300px;
+    width: 410.234px;
+    
 }
 .row-2{
     display: flex;
@@ -217,9 +196,10 @@ a:hover{
     margin-inline: auto;
 }
 .speaker-image{
-    padding-top: 150px;
-    width: 60%;
-}.text-2{
+   padding-top: 65px;
+}
+
+.text-2{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -304,6 +284,7 @@ a:hover{
 .row-3{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 .section-4{
     width: min(100% - 9vw,1128px);
@@ -365,11 +346,14 @@ a:hover{
     width: 45%;
     
 }
+.mobil{
+    display: none;
+}
 
 .section-5{
     width: min(100% - 9vw,1128px);
     margin-inline: auto;
-    padding-top: 120px;
+    padding-block: 120px;
 }
 .best h2{
     font-size: 45px;
@@ -395,12 +379,12 @@ span{
 .audiophile{
     display: flex;
     justify-content: space-between;
+    padding: 32px 0 56px;
 }
 .home-footer{
     display: flex;
     gap: 34px;
     text-transform: uppercase;
-    color: ;
     letter-spacing: 2px;
     line-height: 25px;
     font-weight: 700;
@@ -418,21 +402,173 @@ span{
     background-color: #000;
     color: #fff;
     padding: 32px 0 36px;
+   
+   
+   
 }
 .section-6{
     width: min(100% - 9vw,1128px);
     margin-inline: auto;
 }
 
-.music-info{
+.column-3{
     display: flex;
     justify-content: space-between;
+    padding: 32px 0 56px;
 }
-.music-info div{
+.subtitle div{
     width: 50%;
+}
+.social-icon{
+  display: flex;
+  gap: 34px;
+  font-size: 15px;
+  margin-top: auto;
+  
+}
+.social-icon div:hover{
+    color:#D87D4A;
+    cursor: pointer;
+}
+.title p{
+    font-size: 15px;
+    opacity: 0.5;
+    font-weight: 500;
+    line-height: 25px;
+}
+.copy p{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    opacity: 0.5;
+}
+.footer-line{
+    height: 4px;
+    width: 101px;
+    background-color: #D87D4A;
+    margin-top:-32px ;
+}
+.social-icon-mobil{
+    display: none;
+}
+.audiophile-mobil{
+    display: none;
+}
 
-}
-.icon-footer{
-    width: 50%;
-    /* display: flex; */
+
+@media screen and (max-width:800px){
+    .background-header{
+        background-image: url(image-header.jpg);
+        height: 900px;
+        background-size: cover;
+        background-position: center;
+    }
+    .header-container{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 946px;
+    }
+    .logo-nav{
+        display: none;
+    }
+    .sub-container-nav{
+        width: 100%;
+    }
+    .experience p{
+        margin-inline: auto;
+        text-align: center;
+    }
+    .headphone {
+        line-height: 58px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .row-2{
+        flex-direction: column;
+        
+    }
+    .text-2{
+    width: 40%;
+    padding-top: 80px;
+    margin-inline: auto;
+    text-align: center;
+    
+    }
+    .accessory-2{
+        width: 197.212px
+    }
+    .section-2{
+        height: 720px;
+    }
+    .speaker-image{
+        margin-inline: auto;
+        margin-bottom: 0;
+        max-width: 195px;
+    }
+    .row-4{
+        flex-direction: column-reverse;
+    }
+    .text-5{
+        width: 100%;
+        text-align: center;
+    }
+    .percent{
+        display: none;
+    }
+    .cool-image{
+        width:  100%;
+    }
+    .mobil{
+        display: block;
+        
+    }
+    .mobi{
+        width: 100%;
+    }
+    .best h2{
+        font-size: 42px;
+        color: #000000;
+        line-height: 44px;
+    }
+    .social-icon{
+        display: none;
+    }
+   .copy{
+    display: flex;
+    justify-content: space-between;
+   }
+   .social-icon-mobil{
+    display: flex;
+    gap: 34px;
+    font-size: 15px;
+    align-items: center;
+   }
+   .social-icon-mobil div:hover{
+    color:#D87D4A;
+    cursor: pointer;
+   }
+   .subtitle div{
+    width: 100%;
+   }
+   .audiophile{
+    display: none;
+   }
+   .audiophile-mobil{
+    display: block;
+   }
+   .home-footer{
+    padding: 32px 0 26px;
+   }
+   .b-g{
+    padding: 32px 0 36px;
+   }
+   .section-3{
+    background-image: url(speaker-mobil.jpg);
+    background-size: cover;
+    background-position: center;
+    /* width: 746.494px; */
+   }
+    
 }
