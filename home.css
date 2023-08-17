@@ -24,6 +24,13 @@ a:hover{
     margin-inline: auto;
     
 }
+.border {
+    border-bottom: 2px solid #fff;
+    opacity: 0.2;
+    width: min(100% - 9vw,1128px);
+    margin-inline: auto;
+   margin-top: 25px;
+}
 .line{
     
   
@@ -117,6 +124,7 @@ a:hover{
 .row-1{
     display: flex;
     flex-direction: column;
+    transform: all linear (0.2s);
 }
 .section-1{
     display: flex;
@@ -132,6 +140,9 @@ a:hover{
     margin: 10px;
     height: 200px;
     border-radius: 8px;
+}
+.row-1:hover{
+    transform: scale(1.05)
 }
 
 .middle-row{
